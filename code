@@ -2,6 +2,7 @@ import string
 import random
 
 
+
 ## all characters
 characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 
@@ -34,7 +35,7 @@ combine_all_char = char1 + char2 + char3 + char4 + char5 +char6 + char7 + char8 
 ## join it together without the "" in between
 password = "".join(combine_all_char)
 
-#output to the console
+##output to the console
 print("pasword:", password)
 
 
