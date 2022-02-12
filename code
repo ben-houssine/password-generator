@@ -1,10 +1,8 @@
 import string
 import random
 
-
-
 ## all characters
-characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
+characters = list(string.ascii_letters + string.digits + "!@#$%^&*()_-")
 
 ## length of the password
 char1 = []
@@ -32,6 +30,7 @@ char10.append(random.choice(characters))
 
 ## now combine it all together to a single varaible
 combine_all_char = char1 + char2 + char3 + char4 + char5 +char6 + char7 + char8 + char9 + char10
+
 ## join it together without the "" in between
 password = "".join(combine_all_char)
 
@@ -39,3 +38,6 @@ password = "".join(combine_all_char)
 print("pasword:", password)
 
 
+
+## crated 12.02.2022
+## by Mr. Youssef Ben Houssine
